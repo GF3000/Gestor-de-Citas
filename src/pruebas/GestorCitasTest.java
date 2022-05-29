@@ -19,7 +19,7 @@ public class GestorCitasTest {
 
     public static void main(String[] args) {
 
-
+        
         vacunodromos = new Vacunodromo[5];
         vacunodromos[0] = new Vacunodromo("12 de Octubre", "Sputnick");
         vacunodromos[1] = new Vacunodromo("Wanda", "AstraZeneka");

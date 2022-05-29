@@ -6,7 +6,7 @@ package gestionCitas;
  * los cinco CVs existentes, más una pila de Ciudadano(s) (los que no aceptan
  * vacunarse) y más una lista de IPersona(s) (las menores de 10 años).
  * @author Guillermo Franco Gimeno
- * @version 2.1
+ * @version 2.2
  */
 
 
@@ -131,7 +131,9 @@ public class GestorCitas implements IGestorCitas {
                             
                         }else{
                             //El ciudadano ya tiene las 2 dosis
+                            vacunados.add(0, miCiudadano);
                             gente.poll();
+                            
                         }
                     }
                     
@@ -230,7 +232,7 @@ public class GestorCitas implements IGestorCitas {
      /**
       * Vacuno con una dosis a todos los ciudadanos que estén en un vacunódromo independientemente de si están llenos o no
       */
-     private void forzarVacunacion(){
+     public void forzarVacunacion(){
          for(Vacunodromo vacunodromo : vacunodromos){
              //Itero por todos los vacunodromos
              while (!vacunodromo.isEmpty()){
