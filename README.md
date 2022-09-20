@@ -1,3 +1,7 @@
+## About the project
+
+This is the result of the Programación 2 project for Computer Science student an Universidad Polititécnica de Madrid
+
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
