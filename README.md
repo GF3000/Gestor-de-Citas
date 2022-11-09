@@ -1,6 +1,6 @@
 ## About the project
 
-This is the result of the Programación 2 project for Computer Science student an Universidad Polititécnica de Madrid
+This is the result of the Programación 2 project for Computer Science at Universidad Polititécnica de Madrid
 
 ## Getting Started
 
